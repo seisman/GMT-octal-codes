@@ -3,31 +3,31 @@
 #  Unicode version:  2.0
 #  Table version:    1.0
 #  Date:             2011 July 12
-#  
+#
 #  Copyright (c) 1991-2011 Unicode, Inc. All Rights reserved.
-#  
+#
 #  This file is provided as-is by Unicode, Inc. (The Unicode Consortium). No
 #  claims are made as to fitness for any particular purpose. No warranties of
 #  any kind are expressed or implied. The recipient agrees to determine
 #  applicability of information provided. If this file has been provided on
 #  magnetic media by Unicode, Inc., the sole remedy for any claim will be
 #  exchange of defective media within 90 days of receipt.
-#  
+#
 #  Unicode, Inc. hereby grants the right to freely use the information
 #  supplied in this file in the creation of products supporting the
 #  Unicode Standard, and to make copies of this file in any form for
 #  internal or external distribution as long as this notice remains
 #  attached.
-#  
+#
 #  Format: Three tab-delimited fields:
 #
 #    (1) The Unicode value (in hexadecimal)
 #    (2) The Zapf Dingbats Encoding code point (in hexadecimal)
 #    (3) # Unicode 2.0 name
 #    (4) # PostScript character name
-#  
+#
 #  General Notes:
-# 
+#
 #    The Unicode values in this table were produced as the result of
 #    applying the algorithm described in the section "Populating a Unicode
 #    space" in the document "Unicode and Glyph Names," at
@@ -52,14 +52,14 @@
 #    notes above) results in some character codes being mapped to 2 Unicode
 #    values; use of Corporate Use subarea values; included BLACK CIRCLE and
 #    RIGHT HALF BLACK CIRCLE. Updated Unicode names to Unicode 2.0 names.
-#    
+#
 #    [v0.1, 5 May 1995] First release.
 #
 #  Use the Unicode reporting form <http://www.unicode.org/reporting.html>
 #    for any questions or comments or to report errors in the data.
 #
 0020	20	# SPACE	# space
-00A0	20	# NO-BREAK SPACE	# space
+#00A0	20	# NO-BREAK SPACE	# space
 2701	21	# UPPER BLADE SCISSORS	# a1
 2702	22	# BLACK SCISSORS	# a2
 2703	23	# LOWER BLADE SCISSORS	# a202
@@ -154,20 +154,20 @@
 275C	7C	# HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT	# a98
 275D	7D	# HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT	# a99
 275E	7E	# HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT	# a100
-F8D7	80	# MEDIUM LEFT PARENTHESIS ORNAMENT	# a89 (CUS)
-F8D8	81	# MEDIUM RIGHT PARENTHESIS ORNAMENT	# a90 (CUS)
-F8D9	82	# MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT	# a93 (CUS)
-F8DA	83	# MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT	# a94 (CUS)
-F8DB	84	# MEDIUM LEFT-POINTING ANGLE BRACKET ORNAMENT	# a91 (CUS)
-F8DC	85	# MEDIUM RIGHT-POINTING ANGLE BRACKET ORNAMENT	# a92 (CUS)
-F8DD	86	# HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT	# a205 (CUS)
-F8DE	87	# HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT	# a85 (CUS)
-F8DF	88	# HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT	# a206 (CUS)
-F8E0	89	# HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT	# a86 (CUS)
-F8E1	8A	# LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT	# a87 (CUS)
-F8E2	8B	# LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT	# a88 (CUS)
-F8E3	8C	# MEDIUM LEFT CURLY BRACKET ORNAMENT	# a95 (CUS)
-F8E4	8D	# MEDIUM RIGHT CURLY BRACKET ORNAMENT	# a96 (CUS)
+2768	80	# MEDIUM LEFT PARENTHESIS ORNAMENT	# a89
+2769	81	# MEDIUM RIGHT PARENTHESIS ORNAMENT	# a90
+276A	82	# MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT	# a93
+276B	83	# MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT	# a94
+276C	84	# MEDIUM LEFT-POINTING ANGLE BRACKET ORNAMENT	# a91
+276D	85	# MEDIUM RIGHT-POINTING ANGLE BRACKET ORNAMENT	# a92
+276E	86	# HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT	# a205
+276F	87	# HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT	# a85
+2770	88	# HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT	# a206
+2771	89	# HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT	# a86
+2772	8A	# LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT	# a87
+2773	8B	# LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT	# a88
+2774	8C	# MEDIUM LEFT CURLY BRACKET ORNAMENT	# a95
+2775	8D	# MEDIUM RIGHT CURLY BRACKET ORNAMENT	# a96
 2761	A1	# CURVED STEM PARAGRAPH SIGN ORNAMENT	# a101
 2762	A2	# HEAVY EXCLAMATION MARK ORNAMENT	# a102
 2763	A3	# HEAVY HEART EXCLAMATION MARK ORNAMENT	# a103
