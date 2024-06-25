@@ -36,6 +36,10 @@ for i, glyph_name in enumerate(glyph_names):
         continue
 
     encoding_oct = f"{i:03o}"
-    unicode_hex = glyph_dict[glyph_name]
+
+    if glyph_name.startswith("uni"):  # Some glyph names are like 'uni00A0'
+        unicode_hex = glyph_name[3:]
+    else:
+        unicode_hex = glyph_dict[glyph_name]
     unicode_name = unicodedata.name(chr(int(unicode_hex, 16)))
     print(f"{encoding_oct},{unicode_hex},{unicode_name}")
